@@ -9,27 +9,27 @@
 
  - **Create an interface with IPaymentStrategy**
 
-   ![image](https://github.com/jil1710/readmedemo/assets/125335932/e009f264-d300-4345-9dad-9168bd492652)
+   ![image](https://github.com/dotnet-simformsolutions/strategy-design-pattern/blob/master/images/273164148-e009f264-d300-4345-9dad-9168bd492652.png)
 
  - **Create PaymentType Enum**
 
-   ![image](https://github.com/jil1710/readmedemo/assets/125335932/7167ac29-5c7d-4e74-bc24-1fb74155f414)
+   ![image](https://github.com/dotnet-simformsolutions/strategy-design-pattern/blob/master/images/273164315-7167ac29-5c7d-4e74-bc24-1fb74155f414.png)
 
  - **CreditCardPaymentStrategy Concrete Strategy class implements the IPaymentStrategy Interface and provides implementations for the Pay Method.**
 
-   ![image](https://github.com/jil1710/readmedemo/assets/125335932/4bd8217c-e4a8-4375-bbe0-9b1611d2ed92)
+   ![image](https://github.com/dotnet-simformsolutions/strategy-design-pattern/blob/master/images/273164652-4bd8217c-e4a8-4375-bbe0-9b1611d2ed92.png)
 
  - **CashCardPaymentStrategy Concrete Strategy class implements the IPaymentStrategy Interface and provides implementations for the Pay Method.**
 
-   ![image](https://github.com/jil1710/readmedemo/assets/125335932/e0ff612b-661f-4804-976f-6ee5afd3bab7)
+   ![image](https://github.com/dotnet-simformsolutions/strategy-design-pattern/blob/master/images/273164776-e0ff612b-661f-4804-976f-6ee5afd3bab7.png)
 
  - **Create PaymentContext class that contains a property that holds the reference of a Strategy object. The client will set this property at run-time according to the payment option the client selected**
 
-   ![image](https://github.com/jil1710/readmedemo/assets/125335932/25e70432-aaf8-410b-9f70-274e45bb902a)
+   ![image](https://github.com/dotnet-simformsolutions/strategy-design-pattern/blob/master/images/273165214-25e70432-aaf8-410b-9f70-274e45bb902a.png)
 
  - **Client code**
 
-   ![image](https://github.com/jil1710/readmedemo/assets/125335932/ab0d0cd9-bfe3-4a84-941b-86d7a3f73321)
+   ![image](https://github.com/dotnet-simformsolutions/strategy-design-pattern/blob/master/images/273180741-ab0d0cd9-bfe3-4a84-941b-86d7a3f73321.png)
 
 
 
